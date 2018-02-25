@@ -1,0 +1,1453 @@
+{
+  "languageModel": {
+    "types": [
+      {
+        "name": "RAMPIOT_ACTION_TO_DO",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "send notification",
+              "synonyms": [
+                "notify",
+                "notification"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "lock door",
+              "synonyms": [
+                "lock"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "lock door and send notification",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "lock and notify",
+              "synonyms": [
+                "notify and lock"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "RAMPIOT_DAY_FOR_SCHEDULE",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "Monday",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Tuesday",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Wednesday",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Thursday",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Friday",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Saturday",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Sunday",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "All",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "All days",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Every day",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "All week",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Forever",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Weekend",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Weekdays",
+              "synonyms": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "RAMPIOT_DEVICE_ACTION",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "lock",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "unlock",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "open",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "close",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "security check",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "check if door is open",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "check if door is closed",
+              "synonyms": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "RAMPIOT_DEVICE_EVENT",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "switch on",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "switch off",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "on",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "off",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "opened",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "closed",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "shutted",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "locked",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "unlocked",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "face detected",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "face recognized",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "package delivery",
+              "synonyms": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "RAMPIOT_DEVICE_NAME",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "principal door",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "my door",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "out door",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "switch light",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "smart switch",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "smart door",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "smart connector",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "switch room",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "door",
+              "synonyms": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "RAMPIOT_DOOR_ACTION",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "Open",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Close",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Lock",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Unlock",
+              "synonyms": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "RAMPIOT_POSSIBLE_DEVICE_ACTIONS",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "turn on, turn off",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "open, close",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "lock, unlock",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "up, down",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "left, right",
+              "synonyms": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "RAMPIOT_POSSIBLE_DEVICE_EVENTS",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "Lock, Unlock",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Open, Close",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Face detected",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Lock, Unlock, Open, Close and Face detected",
+              "synonyms": []
+            }
+          }
+        ]
+      },
+      {
+        "name": "RAMPIOT_YES_NO",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "yes",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "affirmative",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "amen",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "fine",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "good",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "okay",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "true",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "yea",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "all right",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "aye",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "beyond a doubt",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "by all means",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "certainly",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "definitely",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "even so",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "exactly",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "glady",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "good enough",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "granted",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "induditably",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "just so",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "most assuredly",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "naturally",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "of course",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "positively",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "precisely",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "sure thing",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "surely",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "undoubtedly",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "unquestionably",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "very well",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "willingly",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "without fail",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "yep",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "sure",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "yessir",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "ok",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "roger",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "totally",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "not by any means",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "not at all",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "no way",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "never",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "by no means",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "absolutely not",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "nix",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "negative",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "no",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "not",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "don't",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "nosir",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "nope",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "nay",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "nah",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "no siree",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "go fish",
+              "synonyms": []
+            }
+          }
+        ]
+      }
+    ],
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": []
+      },
+      {
+        "name": "DeviceLockIntent",
+        "samples": [
+          "lock {deviceName}",
+          "secure lock",
+          "secure lock {deviceName}"
+        ],
+        "slots": [
+          {
+            "name": "deviceName",
+            "type": "RAMPIOT_DEVICE_NAME",
+            "samples": [
+              "{deviceName}"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "DeviceStatusIntent",
+        "samples": [
+          "{deviceName} status",
+          "device status"
+        ],
+        "slots": [
+          {
+            "name": "action",
+            "type": "RAMPIOT_ACTION_TO_DO"
+          },
+          {
+            "name": "doYouWantAction",
+            "type": "RAMPIOT_YES_NO"
+          },
+          {
+            "name": "deviceName",
+            "type": "RAMPIOT_DEVICE_NAME",
+            "samples": [
+              "{deviceName}"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "RuleDeviceIntent",
+        "samples": [
+          "new rule",
+          "create rule",
+          "device rule",
+          "rule",
+          "create new rule",
+          "rule {deviceName}",
+          "create rule {deviceName}",
+          "create rule {deviceName} {deviceEvent}",
+          "create rule for {deviceName}",
+          "create rule when {deviceEvent}",
+          "rule when {deviceEvent}"
+        ],
+        "slots": [
+          {
+            "name": "deviceName",
+            "type": "RAMPIOT_DEVICE_NAME",
+            "samples": [
+              "{deviceName}"
+            ]
+          },
+          {
+            "name": "deviceEvent",
+            "type": "RAMPIOT_DEVICE_EVENT"
+          },
+          {
+            "name": "actionToDo",
+            "type": "RAMPIOT_ACTION_TO_DO"
+          },
+          {
+            "name": "delayTime",
+            "type": "AMAZON.DURATION"
+          },
+          {
+            "name": "dayOfWeek",
+            "type": "RAMPIOT_DAY_FOR_SCHEDULE",
+            "samples": [
+              "{dayOfWeek}",
+              "On {dayOfWeek}"
+            ]
+          },
+          {
+            "name": "startHour",
+            "type": "AMAZON.TIME",
+            "samples": [
+              "Between {startHour} and {endHour}",
+              "From {startHour} to {endHour}"
+            ]
+          },
+          {
+            "name": "endHour",
+            "type": "AMAZON.TIME",
+            "samples": [
+              "{endHour}"
+            ]
+          },
+          {
+            "name": "possibleDeviceEvents",
+            "type": "RAMPIOT_POSSIBLE_DEVICE_EVENTS"
+          },
+          {
+            "name": "startHourFormatted",
+            "type": "AMAZON.TIME"
+          },
+          {
+            "name": "endHourFormatted",
+            "type": "AMAZON.TIME"
+          },
+          {
+            "name": "delayTimeFormatted",
+            "type": "AMAZON.DURATION"
+          },
+          {
+            "name": "dayOfWeekFormatted",
+            "type": "AMAZON.DayOfWeek"
+          }
+        ]
+      },
+      {
+        "name": "ScheduleActionIntent",
+        "samples": [
+          "schedule action",
+          "schedule action for {deviceName}",
+          "schedule {genAction} {deviceName}",
+          "schedule {genAction} {deviceName} on {dayOfWeek} at {hourOfDay}",
+          "schedule {genAction} {deviceName} on {dayOfWeek}",
+          "create schedule action",
+          "schedule action {deviceName}",
+          "schedule {genAction}",
+          "scheduling {genAction}",
+          "schedule",
+          "scheduling an action"
+        ],
+        "slots": [
+          {
+            "name": "deviceName",
+            "type": "RAMPIOT_DEVICE_NAME",
+            "samples": [
+              "{deviceName} ",
+              "My {deviceName}",
+              "{deviceName} device"
+            ]
+          },
+          {
+            "name": "genAction",
+            "type": "RAMPIOT_DEVICE_ACTION",
+            "samples": [
+              "{genAction}"
+            ]
+          },
+          {
+            "name": "dayOfWeek",
+            "type": "RAMPIOT_DAY_FOR_SCHEDULE",
+            "samples": [
+              "{dayOfWeek}",
+              "On {dayOfWeek}"
+            ]
+          },
+          {
+            "name": "hourOfDay",
+            "type": "AMAZON.TIME",
+            "samples": [
+              "{hourOfDay}",
+              "At {hourOfDay}"
+            ]
+          },
+          {
+            "name": "possibleDeviceActions",
+            "type": "RAMPIOT_POSSIBLE_DEVICE_ACTIONS"
+          },
+          {
+            "name": "hourOfDayFormatted",
+            "type": "AMAZON.TIME"
+          },
+          {
+            "name": "dayOfWeekFormatted",
+            "type": "AMAZON.DayOfWeek"
+          }
+        ]
+      },
+      {
+        "name": "SecureUnlockDeviceIntent",
+        "samples": [
+          "secure unlock {deviceName}",
+          "secure unlock",
+          "smart unlock",
+          "smart unlock {deviceName}",
+          "unlock the {deviceName}",
+          "unlock {deviceName}"
+        ],
+        "slots": [
+          {
+            "name": "deviceName",
+            "type": "RAMPIOT_DEVICE_NAME",
+            "samples": [
+              "{deviceName}"
+            ]
+          },
+          {
+            "name": "pin",
+            "type": "AMAZON.FOUR_DIGIT_NUMBER"
+          }
+        ]
+      }
+    ],
+    "invocationName": "rampiot"
+  },
+  "prompts": [
+    {
+      "id": "Elicit.Intent-DeviceLockIntent.IntentSlot-deviceName",
+      "variations": [
+        {
+          "type": "PlainText",
+          "value": "What's device name ?"
+        },
+        {
+          "type": "PlainText",
+          "value": "What's the name of device for lock ?"
+        }
+      ]
+    },
+    {
+      "id": "Elicit.Intent-DeviceStatusIntent.IntentSlot-deviceName",
+      "variations": [
+        {
+          "type": "PlainText",
+          "value": "What's the device name ?"
+        }
+      ]
+    },
+    {
+      "id": "Confirm.Intent-RuleDeviceIntent",
+      "variations": [
+        {
+          "type": "PlainText",
+          "value": "Here are your rule. {dayOfWeekFormatted}, between {startHourFormatted} and {endHourFormatted}, the 
+{deviceName} will {actionToDo} automatically after beign {deviceEvent} {delayTimeFormatted}.  Do you want to create it ?"
+        }
+      ]
+    },
+    {
+      "id": "Elicit.Intent-RuleDeviceIntent.IntentSlot-deviceName",
+      "variations": [
+        {
+          "type": "PlainText",
+          "value": "What is the name of the device that will be validated in the rule?"
+        }
+      ]
+    },
+    {
+      "id": "Elicit.Intent-RuleDeviceIntent.IntentSlot-dayOfWeek",
+      "variations": [
+        {
+          "type": "PlainText",
+          "value": "This rule can apply all days or one specific day of the week. What day of the week do you prefer for 
+this rule apply ?"
+        }
+      ]
+    },
+    {
+      "id": "Elicit.Intent-RuleDeviceIntent.IntentSlot-startHour",
+      "variations": [
+        {
+          "type": "PlainText",
+          "value": "Finally, Select a hour range for apply rule, for example, between six AM and nine AM. What is the hour 
+range you want this rule apply?"
+        }
+      ]
+    },
+    {
+      "id": "Elicit.Intent-RuleDeviceIntent.IntentSlot-endHour",
+      "variations": [
+        {
+          "type": "PlainText",
+          "value": "Sorry, i don't hear the end hour, start hour is {startHourFormatted}. What is the end hour ?"
+        }
+      ]
+    },
+    {
+      "id": "Confirm.Intent-ScheduleActionIntent",
+      "variations": [
+        {
+          "type": "PlainText",
+          "value": "Here is your scheduled action, {dayOfWeekFormatted}, {genAction} {deviceName} at {hourOfDayFormatted}. 
+Do you want to create it ?"
+        }
+      ]
+    },
+    {
+      "id": "Elicit.Intent-ScheduleActionIntent.IntentSlot-deviceName",
+      "variations": [
+        {
+          "type": "PlainText",
+          "value": "What is the name of the device to schedule action?"
+        }
+      ]
+    },
+    {
+      "id": "Elicit.Intent-ScheduleActionIntent.IntentSlot-genAction",
+      "variations": [
+        {
+          "type": "PlainText",
+          "value": "For device {deviceName}, here are the possible actions, {possibleDeviceActions}, what action do you 
+want to schedule?"
+        }
+      ]
+    },
+    {
+      "id": "Elicit.Intent-ScheduleActionIntent.IntentSlot-dayOfWeek",
+      "variations": [
+        {
+          "type": "PlainText",
+          "value": "What day of the week would you like to {genAction} {deviceName}?"
+        }
+      ]
+    },
+    {
+      "id": "Elicit.Intent-ScheduleActionIntent.IntentSlot-hourOfDay",
+      "variations": [
+        {
+          "type": "PlainText",
+          "value": "Finally, at what time would you like {deviceName} to {genAction}?"
+        }
+      ]
+    },
+    {
+      "id": "Elicit.Intent-SecureUnlockDeviceIntent.IntentSlot-deviceName",
+      "variations": [
+        {
+          "type": "PlainText",
+          "value": "What's the device name ?"
+        }
+      ]
+    }
+  ],
+  "dialog": {
+    "intents": [
+      {
+        "name": "DeviceLockIntent",
+        "confirmationRequired": false,
+        "prompts": {},
+        "slots": [
+          {
+            "name": "deviceName",
+            "type": "RAMPIOT_DEVICE_NAME",
+            "elicitationRequired": true,
+            "confirmationRequired": false,
+            "prompts": {
+              "elicitation": "Elicit.Intent-DeviceLockIntent.IntentSlot-deviceName"
+            }
+          }
+        ]
+      },
+      {
+        "name": "DeviceStatusIntent",
+        "confirmationRequired": false,
+        "prompts": {},
+        "slots": [
+          {
+            "name": "action",
+            "type": "RAMPIOT_ACTION_TO_DO",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          },
+          {
+            "name": "doYouWantAction",
+            "type": "RAMPIOT_YES_NO",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          },
+          {
+            "name": "deviceName",
+            "type": "RAMPIOT_DEVICE_NAME",
+            "elicitationRequired": true,
+            "confirmationRequired": false,
+            "prompts": {
+              "elicitation": "Elicit.Intent-DeviceStatusIntent.IntentSlot-deviceName"
+            }
+          }
+        ]
+      },
+      {
+        "name": "RuleDeviceIntent",
+        "confirmationRequired": true,
+        "prompts": {
+          "confirmation": "Confirm.Intent-RuleDeviceIntent"
+        },
+        "slots": [
+          {
+            "name": "deviceName",
+            "type": "RAMPIOT_DEVICE_NAME",
+            "elicitationRequired": true,
+            "confirmationRequired": false,
+            "prompts": {
+              "elicitation": "Elicit.Intent-RuleDeviceIntent.IntentSlot-deviceName"
+            }
+          },
+          {
+            "name": "deviceEvent",
+            "type": "RAMPIOT_DEVICE_EVENT",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          },
+          {
+            "name": "actionToDo",
+            "type": "RAMPIOT_ACTION_TO_DO",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          },
+          {
+            "name": "delayTime",
+            "type": "AMAZON.DURATION",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          },
+          {
+            "name": "dayOfWeek",
+            "type": "RAMPIOT_DAY_FOR_SCHEDULE",
+            "elicitationRequired": true,
+            "confirmationRequired": false,
+            "prompts": {
+              "elicitation": "Elicit.Intent-RuleDeviceIntent.IntentSlot-dayOfWeek"
+            }
+          },
+          {
+            "name": "startHour",
+            "type": "AMAZON.TIME",
+            "elicitationRequired": true,
+            "confirmationRequired": false,
+            "prompts": {
+              "elicitation": "Elicit.Intent-RuleDeviceIntent.IntentSlot-startHour"
+            }
+          },
+          {
+            "name": "endHour",
+            "type": "AMAZON.TIME",
+            "elicitationRequired": true,
+            "confirmationRequired": false,
+            "prompts": {
+              "elicitation": "Elicit.Intent-RuleDeviceIntent.IntentSlot-endHour"
+            }
+          },
+          {
+            "name": "possibleDeviceEvents",
+            "type": "RAMPIOT_POSSIBLE_DEVICE_EVENTS",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          },
+          {
+            "name": "startHourFormatted",
+            "type": "AMAZON.TIME",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          },
+          {
+            "name": "endHourFormatted",
+            "type": "AMAZON.TIME",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          },
+          {
+            "name": "delayTimeFormatted",
+            "type": "AMAZON.DURATION",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          },
+          {
+            "name": "dayOfWeekFormatted",
+            "type": "AMAZON.DayOfWeek",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          }
+        ]
+      },
+      {
+        "name": "ScheduleActionIntent",
+        "confirmationRequired": true,
+        "prompts": {
+          "confirmation": "Confirm.Intent-ScheduleActionIntent"
+        },
+        "slots": [
+          {
+            "name": "deviceName",
+            "type": "RAMPIOT_DEVICE_NAME",
+            "elicitationRequired": true,
+            "confirmationRequired": false,
+            "prompts": {
+              "elicitation": "Elicit.Intent-ScheduleActionIntent.IntentSlot-deviceName"
+            }
+          },
+          {
+            "name": "genAction",
+            "type": "RAMPIOT_DEVICE_ACTION",
+            "elicitationRequired": true,
+            "confirmationRequired": false,
+            "prompts": {
+              "elicitation": "Elicit.Intent-ScheduleActionIntent.IntentSlot-genAction"
+            }
+          },
+          {
+            "name": "dayOfWeek",
+            "type": "RAMPIOT_DAY_FOR_SCHEDULE",
+            "elicitationRequired": true,
+            "confirmationRequired": false,
+            "prompts": {
+              "elicitation": "Elicit.Intent-ScheduleActionIntent.IntentSlot-dayOfWeek"
+            }
+          },
+          {
+            "name": "hourOfDay",
+            "type": "AMAZON.TIME",
+            "elicitationRequired": true,
+            "confirmationRequired": false,
+            "prompts": {
+              "elicitation": "Elicit.Intent-ScheduleActionIntent.IntentSlot-hourOfDay"
+            }
+          },
+          {
+            "name": "possibleDeviceActions",
+            "type": "RAMPIOT_POSSIBLE_DEVICE_ACTIONS",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          },
+          {
+            "name": "hourOfDayFormatted",
+            "type": "AMAZON.TIME",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          },
+          {
+            "name": "dayOfWeekFormatted",
+            "type": "AMAZON.DayOfWeek",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          }
+        ]
+      },
+      {
+        "name": "SecureUnlockDeviceIntent",
+        "confirmationRequired": false,
+        "prompts": {},
+        "slots": [
+          {
+            "name": "deviceName",
+            "type": "RAMPIOT_DEVICE_NAME",
+            "elicitationRequired": true,
+            "confirmationRequired": false,
+            "prompts": {
+              "elicitation": "Elicit.Intent-SecureUnlockDeviceIntent.IntentSlot-deviceName"
+            }
+          },
+          {
+            "name": "pin",
+            "type": "AMAZON.FOUR_DIGIT_NUMBER",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          }
+        ]
+      }
+    ]
+  }
+}
