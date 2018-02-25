@@ -1,0 +1,7 @@
+{
+    "ALEXA_COMPATIBLE_RAMPIOT_TYPES": [
+        "SMART_DOOR"
+    ],
+    "mqttHost": "mqtt.rampiot.com",
+    "mqttPort": 8883
+}

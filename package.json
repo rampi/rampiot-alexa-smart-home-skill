@@ -1,0 +1,19 @@
+{
+  "name": "rampiot-alexa-smart-home-skill",
+  "version": "1.0.0",
+  "description": "Skill for rampiot platform",
+  "main": "index.js",
+  "dependencies": {
+    "alexa-sdk": "^1.0.10",
+    "asyncawait": "^1.0.6",
+    "durational": "^1.1.0",
+    "json-hash": "^1.2.0",
+    "moment": "^2.20.1",
+    "mqtt": "^2.15.2",
+    "q": "^1.5.1",
+    "request": "^2.83.0",
+    "sendgrid": "^2.0.0"
+  },
+  "author": "Robinson Mesino",
+  "license": "ISC"
+}

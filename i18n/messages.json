@@ -1,0 +1,238 @@
+{
+    "en-US":{
+        "translation":{
+            "YES_VARIATIONS":[
+                "yep", "without fail", "willingly", "very well", "unquestionably", "undoubtedly",
+                "surely", "sure thing", "precisely", "positively", "of course", "naturally", "most assuredly",
+                "just so", "induditably", "granted", "good enough", "glady", "exactly", "even so", "definitely",
+                "certainly", "by all means", "beyond a doubt", "aye", "all right", "yea" ,"true", "okay", "good",
+                "fine", "amen", "affirmative", "yes", "sure", "yessir", "ok", "roger", "totally"
+            ],
+            "NO_VARIATIONS":[
+                "not by any means", "not at all", "no way", "never", "by no means", "absolutely not", "nix",
+                "negative", "no", "not", "don't", "nosir", "nope", "nay", "nah", "no siree", "go fish"
+            ],
+            "RESTRICTED_DOW_SLOT_KV": {
+                "forever": "forever", 
+                "all week": "all week", 
+                "everyday": "everyday", 
+                "every day": "every day", 
+                "all days": "all days", 
+                "all": "all", 
+                "sunday": "sunday", 
+                "saturday": "saturday", 
+                "friday": "friday", 
+                "thrusday": "thrusday", 
+                "wednesday": "wednesday", 
+                "tuesday": "tuesday", 
+                "monday": "monday",
+                "weekend": "weekend",
+                "weekdays": "weekdays"
+            },
+            "RESTRICTED_DOW_SLOT_VALUES": [
+                "forever", "all week", "everyday", "every day", "all days", "all", "sunday", 
+                "saturday", "friday", "thrusday", "wednesday", "tuesday", "monday",
+                "weekend", "weekdays"
+            ],
+            "WELCOME_MESSAGES": [
+                "Welcome to rampiot, what are we doing today ?. scheduling an action or creating a new rule ?",
+                "Welcome to rampiot, how can i help you ?. do you want to schedule an action or create a new rule ?"
+            ],
+            "WELCOME_MESSAGES_SINGLE_DEVICE_MULTI_ACTIONS": [
+                "Welcome to rampiot, what are we doing today with your {deviceName} ?. scheduling an action or creating a new rule ?",
+                "Welcome to rampiot, how can i help you with your {deviceName} ?. do you want to schedule an action or create a new rule ?"
+            ],
+            "WELCOME_MESSAGES_SINGLE_DEVICE_SINGLE_ACTION": [
+                "Welcome to rampiot, what are we doing today with your {deviceName} ?. scheduling {singleAction} or creating a rule ?",
+                "Welcome to rampiot, how can i help you with your {deviceName} ?. do you want to schedule an {singleAction} or create a new rule ?"
+            ],
+            "SCHEDULER_END_PHRASES": [
+                "Your schedule action is ready", "Schedule action created successfully", 
+                "Everyting ok, hope to hear from you soon"
+            ],
+            "RULE_END_PHRASES": [
+                "Your rule is ready", "Rule created successfully", 
+                "Everyting ok, hope to hear from you soon"
+            ],
+            "END_NO_CONFIRM_INTENT": [
+                "Ok, hope to hear from you soon",  
+                "<say-as interpret-as='interjection'>uh oh</say-as>, say someting when you need help, bye",
+                "Ok, your wish is my command"
+            ],
+            "PIN_CONFIRM": [
+                "What's the pin ?",  
+                "What's your pin number ?"
+            ],
+            "WRONG_PIN": [
+                "Wrong pin. What's the pin ?",
+                "The pin doesn't match, try again"
+            ],
+            "WRONG_PIN_MAX_ATTEMPS":[
+                "Sorry, i can't unlock your {deviceName}",
+                "Max pin attemps completed, i can't unlock your {deviceName}",
+                "Wrong pin, i can't unlock your {deviceName}"
+            ],
+            "DEVICE_UNLOCKED":[
+                "<say-as interpret-as='interjection'>open sesame</say-as>",
+                "<say-as interpret-as='interjection'>ta da</say-as>",
+                "{deviceName} is unlocked !!"
+            ],
+            "DEVICE_LOCKED": "{deviceName} is locked",
+            "DEVICE_ALREADY_LOCKED": "{deviceName} already locked",
+            "DEVICE_ALREADY_UNLOCKED": "{deviceName} already unlocked",
+            "CANT_UNLOCK": "Sorry, i can't unlock your {deviceName}",
+            "CANT_LOCK": "Sorry, i can't lock your {deviceName}",
+            "UNLOCKING_DEVICE": "Unlocking {deviceName}",
+            "LOCKING_DEVICE": "Locking {deviceName}",
+            "DEVICE_STATUS": [
+                "{deviceName} is {deviceStatus}",
+                "Now your {deviceName} is {deviceStatus}"
+            ],
+            "DEVICE_STATUS_DYW_REPROMPT": "Do you want {deviceAction} your {deviceName} ?",
+            "DEVICE_STATUS_DYW": "The device {deviceName} is {deviceStatus}. Do you want {deviceAction} your {deviceName}?",
+            "DEVICE_STATUS_DYW_INVALID_VALUE": "{word} is not a valid response, you can say yes or not. Do you want {deviceAction} your {deviceName}?",
+            "DEVICE_STATUS_DYW_ERROR": "Sorry, i can't complete device action",
+            "OK": "Ok",
+            "NUMBER": "number",
+            "FIRST": "First",
+            "NEXT": "Next",
+            "FINALLY": "Finally",
+            "HERE_ARE_SCHEDULED_ACTIONS_LIST": "You have {length} schedule actions.",
+            "REWELCOME_MESSAGE": "Say schedule action or say new rule for start",
+            "REWELCOME_MESSAGE_SINGLE_DEVICE" : "Do you want schedule or create new rule ?",
+            "NO_DEVICE_COMPATIBLE_FOUND": "I don't found your devices or maybe your devices aren't compatible with this skill",
+            "DEVICE_NOT_FOUND": "The device {deviceName} not found. What's the device name ?",
+            "DEVICE_NOT_FOUND_REPROMPT": "What's the device name to schedule action ?",
+            "DEVICE_NOT_FOUND_MAX_REPROMPT": "Sorry, i can't found your devices.",
+            "ACCOUNT_NOT_LINKED": "Sorry, to use this skill you need to link your account with rampiot, in the application alexa go to skills, select Rampiot Smart Home and link account",
+            "HELP_MESSAGE": "This skills allows to users schedule actions and create rules for their devices, for example, you can lock your door all days in an specific hour of the day or you can say to alexa that sends an email when door is unlock, try say schedule action or new rule for start",
+            "HELP_MESSAGE_CARD_TITLE": "Help",
+            "HELP_MESSAGE_CARD": "This skills allows to users schedule actions and create rules for their devices.\nTry say one of these:\n-Schedule action\n-New rule",
+            "END_MESSAGE": "<say-as interpret-as='interjection'>{interjection}</say-as>, {endPhrase}",                        
+            "NEW_SCHEDULE_ACTION_END": "{dayOfWeek}, {action} {deviceName} at {hourOfDay}",
+            "NEW_SCHEDULE_ACTION_CARD": "New schedule action:\n{dayOfWeek}, {action} {deviceName} at {hourOfDay}",
+            "SCHEDULE_ACTIONS_LIST_NOT_FOUND": "You don't have schedule actions, but i can help to create one. say schedule action for begin",
+            "RULE_DELAY_PROMPT": "How much time should pass after the {deviceName} is {deviceEvent} before {actionToDo}?",
+            "RULE_EVENT_CARD_TITLE": "Possible {deviceName} events",
+            "RULE_EVENT_PROMPT": "Here are the possible {deviceName} events, {possibleDeviceEvents}. Which one of these events will fire the rule ?",
+            "NEW_RULE_END": "{dayOfWeek}, between {startHour} and {endHour}, the {deviceName}  will {actionToDo} automatically after beign {deviceEvent} {delayTime}",
+            "NEW_RULE_CARD": "New rule:\n{dayOfWeek}, between {startHour} and {endHour}, the {deviceName}  will {actionToDo} automatically after beign {deviceEvent} {delayTime}",
+            "AND": "and",
+            "OR": "or",
+            "ERROR": "Error",
+            "THE_NEXT_DAY": "the next day",
+            "ERROR_SAVING": "Error saving",
+            "UNLOCK_CONFIRM_IDENTITY": "Ok, i sent you a notification to your phone for confirm your identity",
+            "GENERAL_ERROR_SCHEDULE_ACTION": "Sorry, an error has occurred and i can't save your scheduled action",
+            "GENERAL_ERROR_NEW_RULE": "Sorry, an error has occurred and i can't save your rule",
+            "GENERAL_ERROR_UNLOCK": "Sorry, an error has occurred and i can't unlock your device",
+            "GENERAL_ERROR_LOCK": "Sorry, an error has occurred and i can't lock your device",
+            "GENERAL_ERROR": "Sorry, an error has occurred and i can't complete your request.",
+            "ERROR_ALREADY_EXISTS": "Already exists!",
+            "RULE_ALREADY_EXISTS": "Sorry, this rule definition already exists, try again with another action, day of week or hours",
+            "SCHEDULED_ALREADY_EXISTS": "Sorry, this scheduled action already exists, try again with another action, day of week or hours",
+            "INVALID_DELAY_TIME_SLOT_VALUE": "Sorry, but the time before {actionToDo} needs be expressed in hours or minutes or in seconds. So. How much time {deviceName} must be {deviceEvent} before {actionToDo} ?",
+            "INVALID_DELAY_TIME_SLOT_VALUE_REPROMPT": "How much time {deviceName} must be {deviceEvent} before {actionToDo} ?",
+            "INVALID_DEVICE_EVENT_SLOT_VALUE": "{deviceEvent} is not valid event for {deviceName}, the possible events are, {possibleDeviceEvents}, what event do you want choose ?",
+            "INVALID_DEVICE_EVENT_SLOT_VALUE_REPROMPT": "The possible events for {deviceName} are, {possibleDeviceEvents}, what event do you want choose ?",
+            "INVALID_DOW_SLOT_VALUE": "{dayOfWeek} is not valid day of week value, you can say: all, all days, all week or simply a day of week, What day of the week would you like to {genAction} {deviceName}?",
+            "INVALID_DOW_SLOT_VALUE_REPROMPT": "What day of the week would you like to {genAction} {deviceName}?",
+            "INVALID_ACTION_SLOT_VALUE": "{action} is not valid for {deviceName}, the possible actions are, {possibleDeviceActions}, what action do you want choose ?",
+            "INVALID_ACTION_SLOT_VALUE_REPROMPT": "The possible actions for {deviceName} are, {possibleDeviceActions}, what action do you want choose ?",
+            "CANCELED": "Ok",
+            "STOPPED": "Ok",
+            "ACTIONS_TO_DO": "When {deviceName} is {deviceEvent} you can do one of this three actions: {possibleActionsToDo}. Which one of these actions do you want ?",
+            "INVALID_ACTIONS_TO_DO": "{actionToDo} is not valid action for {deviceName}, you can do one of this three actions: {possibleActionsToDo}. Which one of these actions do you want ?",
+            "ACTIONS_TO_DO_REPROMPT": "Choose one of this three actions: {possibleActionsToDo}. Which one of these actions do you want ?",
+            "SEND_NOTIFICATION": "send notification",
+            "NOTIFY": "notify",
+            "ACTION_EMAIL_SUBJECT": "Alert on device",
+            "DO_YOU_WANT_HEAR_MORE": "Do you want hear more ?",
+            "ACTION_EMAIL_MESSAGE_TEMPLATE": "The device {deviceName} is {deviceEvent}",
+            "ACTION_PUSH_MESSAGE_TEMPLATE": "The device {deviceName} is {deviceEvent}",
+            "SUCCESS_INTERJECTIONS": ["All righty", "Well done!", "Bingo", "Fancy that", "Bravo", "Open sesame", "Okey dokey"],
+            "SECUTITY_CHECK_EMAIL_SUBJECT": "Alert security check - {deviceName}",
+            "SECUTITY_CHECK_EMAIL_IS_OPEN": "The {deviceName} is open",
+            "CHECK_CLOSED_EMAIL_SUBJECT": "Alert check closed - {deviceName}",
+            "CHECK_CLOSED_EMAIL": "The {deviceName} is not closed",
+            "CHECK_OPEN_EMAIL_SUBJECT": "Alert check open - {deviceName}",
+            "CHECK_OPEN_EMAIL": "The {deviceName} is open",
+            "DEVICE_NOT_CONNECTED": "The device {deviceName} is not connected",
+            "POSSIBLE_RULE_ACTIONS_VARIANTS":{
+                "SEND_NOTIFICATION": ["notify", "send notification", "send email", "notify me", "send alert"],
+                "DEVICE_ACTION": ["{deviceEvent}", "{deviceEvent} device", "{deviceEvent} {deviceName}"],
+                "DEVICE_ACTION_AND_NOTIFY": ["{deviceEvent} and notify", "{deviceEvent} and alert"]
+            },
+            "ACTIONS":{                
+                "SMART_DOOR":{
+                    "lock":{
+                        "code": "lock",
+                        "description": "lock",
+                        "progress": "Locking your {deviceName}...",
+                        "success": "Device {deviceName} is locked",
+                        "fail": "Device {deviceName} can't be locked"
+                    },                    
+                    "unlock":{
+                        "code": "unlock",
+                        "description": "unlock"
+                    },
+                    "security_check":{
+                        "code": "security_check",
+                        "description": "security check",
+                        "variants": ["security", "secure", "secure door"]
+                    },
+                    "check_close":{
+                        "code": "check_close",
+                        "description": "check if door is closed",
+                        "variants": [
+                            "check closed", "check close", 
+                            "check if closed", "check if close",
+                            "is closed", "is close"
+                        ]
+                    },
+                    "check_open":{
+                        "code": "check_open",
+                        "description": "check if door is open",
+                        "variants": [
+                            "check opened", "check open", 
+                            "check if opened", "check if open",
+                            "is opened", "is open" 
+                        ]
+                    }
+                }
+            },
+            "EVENTS":{                
+                "SMART_DOOR":{                    
+                    "open": {
+                        "code": "open",
+                        "description": "opened"
+                    },
+                    "close": {
+                        "code": "close",
+                        "description": "closed"
+                    },
+                    "lock": {
+                        "code": "lock",
+                        "description": "locked"
+                    },
+                    "unlock": {
+                        "code": "unlock",
+                        "description": "unlocked"
+                    },
+                    "opened": {
+                        "code": "opened",
+                        "description": "opened"                        
+                    },
+                    "closed_unlocked": {
+                        "code": "closed_unlocked",
+                        "description": "closed and unlocked"
+                    },
+                    "closed_locked": {
+                        "code": "closed_locked",
+                        "description": "closed and locked"
+                    }
+                }                
+            }
+        }        
+    }
+}
